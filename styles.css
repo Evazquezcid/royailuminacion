@@ -51,8 +51,10 @@ body {
 }
 
 #email a {
-    font-size: .8rem;
+    font-size: 1rem;
     color: black;
+    font-weight: bold;
+    
 }
 
 #email a:hover{
@@ -99,8 +101,7 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
-    
-    align-items: center;
+   
    
 }
 .home2 img {
@@ -117,7 +118,7 @@ body {
  margin-bottom: 8%;
  
  align-items: center;
- margin-bottom: 5%;
+ 
 }
 
 .galeria h2 {
@@ -212,11 +213,32 @@ body {
 }
 
 
+.redessociales {
+  
+  
+  width: 500px;
+  height: 600px;
+  border: 1px solid burlywood;
+}
+
+.redessociales h1 {
+  margin-top: 10%;
+}
+
 
 .mapa {
    margin: 5%;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-around;
+
 }
 
+.mapouter h1 {
+  margin-bottom: 3%;
+  text-align: left;
+}
 
 
 
@@ -246,7 +268,6 @@ body {
   .footer__logo {
   
     font-weight: 400;
-    text-transform: lowercase;
     font-size: 1.5rem;
   }
   
@@ -293,6 +314,10 @@ body {
   
   .footer a {
     text-decoration: none;
+  }
+
+  .footer a:hover{
+    color: #e2be9d;
   }
   
   .footer__nav {
