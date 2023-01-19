@@ -1,0 +1,356 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poiret+One&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poiret One', cursive;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    background-color: #fcfcfc;
+    overflow: hidden;
+    border-bottom: 1px solid  #e2be9d ;
+   
+    
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.navbar li {
+  font-size: 1.4rem;
+  font-family: 'Abel', sans-serif;
+}
+
+.navbar li:hover{
+    color: #e2be9d;
+}
+
+.navbar img {
+    width: 70px;
+    height: 70px;
+}
+
+#telefono  a {
+    font-size: .8rem;
+    color: black;
+}
+
+#email a {
+    font-size: .8rem;
+    color: black;
+}
+
+#email a:hover{
+    color: #e2be9d;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8%;
+    background-image: url(/assets/fondohome1.png);
+    background-repeat: no-repeat;
+    background-size:3000px 3000px;
+   
+    
+}
+
+.home1 {
+  padding: 0 auto;
+  width: 50%;
+   
+    
+    
+}
+
+.home1 h1  {
+    font-size: 3.2rem;
+    padding: 3%;
+    text-align: center;
+}
+
+.home1 p {
+    font-size: 1.3rem;
+    padding: 7%;
+    line-height: 30px;
+    text-justify: rigth;
+   
+    
+}
+
+.home2{
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+    align-items: center;
+   
+}
+.home2 img {
+    height: 400px;
+    width: 400px;
+    align-items: center;border-radius: 20px;
+    margin-top: 8%;
+
+}
+
+
+.galeria {
+ margin-top:8% ;
+ margin-bottom: 8%;
+ 
+ align-items: center;
+ margin-bottom: 5%;
+}
+
+.galeria h2 {
+    font-size: 3.2rem;
+   
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.fotosgaleria{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.fotosgaleria img {
+    height: 400px;
+    width: 400px; 
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform .2s;
+  
+}
+
+.fotosgaleria img:hover {
+   opacity: 50%;
+   transform: scale(1.2);
+}
+
+.proveedores {
+    background-color: antiquewhite;
+    margin-top: 10%;
+   
+    display: block;
+    
+}
+
+.proveedores h1{
+    text-align: center;
+    margin-top: 3%;
+   font-size: 3.2rem;
+   padding-top: 2%;
+   
+}
+
+.proveedores h3 {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    padding: 0 auto;
+    padding: 2%;
+
+}
+
+.tarjetasproveedores{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+} 
+
+.tarimas {
+    border: 1px solid red;
+    
+}
+
+.iluminacion {
+   
+    width: 500px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.iluminacion h3 {
+    font-size: 2.0rem;
+ 
+}
+
+.iluminacion img {
+    width: 280px;
+    height: 140px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgb(200, 200, 200);
+}
+
+
+
+.mapa {
+   margin: 5%;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: #fff;
+    border-top: 1px solid #0a0a0a;
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .footer__logo {
+  
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+  }
+  
+  .footer__addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .nav__title {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .footer address {
+  
+    color: #999;
+    font-family: 'Poiret One', cursive;
+  }
+  
+  .footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33, 0.07);
+    border-radius: 100px;
+    color: #2f2f2f;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer__nav {
+    display: flex;
+      flex-flow: row wrap;
+  }
+  
+  .footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+  }
+  
+  .nav__ul a {
+    color: #999;
+    font-family: 'Poiret One', cursive;
+  }
+  
+  .nav__ul--extra {
+    column-count: 2;
+    column-gap: 1.25em;
+    font-family: 'Poiret One', cursive;
+  }
+  
+  .legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+  }
+    
+  .legal__links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heart {
+    color: #2f2f2f;
+  }
+  
+  @media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+    }
+    
+    .footer__addr {
+      flex: 1 0px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }
