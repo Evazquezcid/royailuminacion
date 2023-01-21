@@ -18,6 +18,7 @@ body {
     background-color: #fcfcfc;
     overflow: hidden;
     border-bottom: 1px solid  #e2be9d ;
+    width: 100%;
    
     
 }
@@ -59,7 +60,30 @@ body {
 
 #email a:hover{
     color: #e2be9d;
+
+
 }
+
+@media screen and (max-width: 600px) {
+  .navbar li {
+      font-size: .7rem;
+  }
+
+  .navbar  img {
+    width: 30px;
+    height: 30px;
+  }
+  #telefono  a {
+    font-size: .6rem;
+    
+}
+#email a {
+  font-size: .6rem;
+  
+}
+}
+
+
 
 .home{
     display: flex;
@@ -90,10 +114,25 @@ body {
 .home1 p {
     font-size: 1.3rem;
     padding: 7%;
-    line-height: 30px;
+    
     text-justify: rigth;
    
     
+}
+
+@media screen and (max-width: 600px) {
+  .home1 p {
+    font-size: .8rem;
+  
+   
+    
+}
+.home1 h1  {
+  font-size: 1.2rem;
+  padding: 1%;
+  
+}
+
 }
 
 .home2{
@@ -104,10 +143,20 @@ body {
    
    
 }
+
+@media screen and (max-width: 600px) {
+  .home2 img {
+    height: 20px;
+    width: 20px;
+    margin-top: 1%;
+  }
+
+}
 .home2 img {
     height: 400px;
     width: 400px;
-    align-items: center;border-radius: 20px;
+    align-items: center;
+    border-radius: 20px;
     margin-top: 8%;
 
 }
@@ -215,7 +264,6 @@ body {
 
 .redessociales {
   
-  
   width: 500px;
   height: 600px;
   border: 1px solid burlywood;
@@ -225,6 +273,10 @@ body {
   margin-top: 10%;
 }
 
+.info_title{
+  margin-top: 5%;
+  background-color: aqua;
+}
 
 .mapa {
    margin: 5%;
