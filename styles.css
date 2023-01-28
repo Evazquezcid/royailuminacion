@@ -355,7 +355,8 @@ body {
   
   .nav__title {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 19px;
+    text-decoration: underline;
   }
   
   .footer address {
