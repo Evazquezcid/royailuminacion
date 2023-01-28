@@ -37,10 +37,21 @@ body {
   font-family: 'Abel', sans-serif;
 }
 
+
+
 .navbar li:hover{
     color: #e2be9d;
 }
 
+.navbar li a {
+  color: black;
+  font-family: 'Abel', sans-serif;
+}
+
+
+.navbar li a:hover {
+  color: #e2be9d;
+}
 .navbar img {
     width: 70px;
     height: 70px;
@@ -89,7 +100,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 8%;
+    margin-top: 5%;
     background-image: url(/assets/fondohome1.png);
     background-repeat: no-repeat;
     background-size:3000px 3000px;
@@ -97,9 +108,18 @@ body {
     
 }
 
+@media screen and (max-width: 600px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size:300px 300px;
+  }
+  }
+
 .home1 {
   padding: 0 auto;
-  width: 50%;
+  
    
     
     
@@ -114,53 +134,30 @@ body {
 .home1 p {
     font-size: 1.3rem;
     padding: 7%;
-    
     text-justify: rigth;
-   
-    
+     
 }
+
+
+
+ .home2 img {
+  height: 350px;
+  width: 350px;
+  border-radius: 20px;
+ }
+
 
 @media screen and (max-width: 600px) {
-  .home1 p {
-    font-size: .8rem;
-  
-   
-    
-}
-.home1 h1  {
-  font-size: 1.2rem;
-  padding: 1%;
-  
-}
-
-}
-
-.home2{
-   
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   
-   
-}
-
-@media screen and (max-width: 600px) {
-  .home2 img {
-    height: 20px;
-    width: 20px;
-    margin-top: 1%;
+  .home2 {
+    display: block;
+    align-items: center;
   }
 
+  .home2 img {
+  height: 150px;
+  width: 150px;
 }
-.home2 img {
-    height: 400px;
-    width: 400px;
-    align-items: center;
-    border-radius: 20px;
-    margin-top: 8%;
-
 }
-
 
 .galeria {
  margin-top:8% ;
@@ -185,11 +182,11 @@ body {
 }
 
 .fotosgaleria img {
-    height: 400px;
-    width: 400px; 
+    height: 300px;
+    width: 300px; 
     cursor: pointer;
     border-radius: 10px;
-    transition: transform .2s;
+    transition: transform .4s;
   
 }
 
@@ -197,6 +194,8 @@ body {
    opacity: 50%;
    transform: scale(1.2);
 }
+
+
 
 .proveedores {
     background-color: antiquewhite;
@@ -231,10 +230,7 @@ body {
     margin-top: 5%;
 } 
 
-.tarimas {
-    border: 1px solid red;
-    
-}
+
 
 .iluminacion {
    
@@ -243,7 +239,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 5%;
     
     
     
@@ -255,10 +252,33 @@ body {
 }
 
 .iluminacion img {
-    width: 280px;
+    width: 220px;
     height: 140px;
     border-radius: 20px;
     box-shadow: 10px 5px 5px rgb(200, 200, 200);
+}
+
+
+@media screen and (max-width: 600px) {
+  .proveedores h1{
+    font-size: 1.8rem;
+  }
+
+
+  
+  .iluminacion {
+   
+    height: 1000px;
+  }
+
+  .iluminacion h3{
+    font-size: 1.0rem;
+  }
+
+  .iluminacion img {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 
@@ -303,9 +323,11 @@ body {
     display: flex;
     flex-flow: row wrap;
     padding: 30px 30px 20px 30px;
-    color: #2f2f2f;
-    background-color: #fff;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
     border-top: 1px solid #0a0a0a;
+    font-family: 'Abel', sans-serif;
+   
   }
   
   .footer > * {
@@ -315,6 +337,7 @@ body {
   .footer__addr {
     margin-right: 1.25em;
     margin-bottom: 2em;
+    font-family: 'Abel', sans-serif;
   }
   
   .footer__logo {
@@ -327,6 +350,7 @@ body {
     margin-top: 1.3em;
     font-size: 15px;
     font-weight: 400;
+    font-family: 'Abel', sans-serif;
   }
   
   .nav__title {
@@ -337,7 +361,7 @@ body {
   .footer address {
   
     color: #999;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Abel', sans-serif;
   }
   
   .footer__btn {
@@ -353,28 +377,34 @@ body {
     margin: 0.6em 0;
     font-size: 1rem;
     padding: 0 1.3em;
+    font-family: 'Abel', sans-serif;
   }
   
   .footer ul {
     list-style: none;
     padding-left: 0;
+    font-family: 'Abel', sans-serif;
   }
   
   .footer li {
     line-height: 2em;
+    font-family: 'Abel', sans-serif;
   }
   
   .footer a {
     text-decoration: none;
+    font-family: 'Abel', sans-serif;
   }
 
   .footer a:hover{
     color: #e2be9d;
+    
   }
   
   .footer__nav {
     display: flex;
       flex-flow: row wrap;
+      s
   }
   
   .footer__nav > * {
@@ -384,13 +414,13 @@ body {
   
   .nav__ul a {
     color: #999;
-    font-family: 'Poiret One', cursive;
+   
   }
   
   .nav__ul--extra {
     column-count: 2;
     column-gap: 1.25em;
-    font-family: 'Poiret One', cursive;
+   
   }
   
   .legal {
@@ -405,7 +435,7 @@ body {
   }
   
   .heart {
-    color: #2f2f2f;
+    color:  #e2be9d;
   }
   
   @media screen and (min-width: 24.375em) {
