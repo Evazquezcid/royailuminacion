@@ -33,7 +33,7 @@ body {
 
 
 .navbar li {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-family: 'Abel', sans-serif;
 }
 
@@ -77,7 +77,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .navbar li {
-      font-size: .7rem;
+      font-size: .9rem;
   }
 
   .navbar  img {
@@ -85,22 +85,32 @@ body {
     height: 30px;
   }
   #telefono  a {
-    font-size: .6rem;
+    font-size: .7rem;
     
 }
 #email a {
-  font-size: .6rem;
+  font-size: .7rem;
   
 }
 }
 
-
+.fotoprincipal {
+  background-image: url(/assets/fotoprincipal.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vw;
+  width: auto;
+ 
+ 
+ 
+}
 
 .home{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 5%;
+    margin-bottom: 2%;
     background-image: url(/assets/fondohome1.png);
     background-repeat: no-repeat;
     background-size:3000px 3000px;
@@ -113,51 +123,39 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-size:300px 300px;
+    background-image: none;
+    border-bottom: 1px solid black;
+  }
+
+  .home1 h1 {
+    font-size: 1.8;
+  }
+  .home1 p {
+    font-size: 1.1rem;
   }
   }
 
+
+
+
 .home1 {
   padding: 0 auto;
-  
-   
-    
     
 }
 
 .home1 h1  {
-    font-size: 3.2rem;
-    padding: 3%;
+    font-size: 2.8rem;
     text-align: center;
 }
 
 .home1 p {
-    font-size: 1.3rem;
-    padding: 7%;
+    font-size: 1.6rem;
+    padding: 5%;
     text-justify: rigth;
      
 }
 
 
-
- .home2 img {
-  height: 350px;
-  width: 350px;
-  border-radius: 20px;
- }
-
-
-@media screen and (max-width: 600px) {
-  .home2 {
-    display: block;
-    align-items: center;
-  }
-
-  .home2 img {
-  height: 150px;
-  width: 150px;
-}
-}
 
 .galeria {
  margin-top:8% ;
@@ -216,7 +214,7 @@ body {
 .proveedores h3 {
     text-align: center;
     margin-top: 3%;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding: 0 auto;
     padding: 2%;
 
@@ -272,8 +270,10 @@ body {
   }
 
   .iluminacion h3{
-    font-size: 1.0rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
   }
+
 
   .iluminacion img {
     width: 100px;
@@ -281,7 +281,25 @@ body {
   }
 }
 
+.nosotros{
+  border-bottom: 1px solid black;
+  text-align: justify;
+}
 
+.nosotros h2 {
+  font-size: 3.2rem;
+   
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.nosotros p{
+  font-size: 1.6rem;
+  padding: 5%;
+ 
+    
+}
 .redessociales {
   
   width: 500px;
