@@ -15,7 +15,7 @@ body {
 }
 
 .main-header{
-  height: 50px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,6 +28,7 @@ body {
   font-size:32px;
   text-decoration:none;
 }
+
 
 .main-nav{
   position: fixed;
@@ -146,6 +147,8 @@ body {
     background: white;
   }
 
+
+
   .link-item{
     display: inline-block;
     margin-top: 0;
@@ -155,15 +158,33 @@ body {
 
 
 .fotoprincipal {
-  background-image: url(/assets/fotoprincipal.jpeg);
+  background-image: url(/assets/fotogrande.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100vw;
+  height: 68vw;
   width: auto;
  
  
  
 }
+
+
+
+
+.logoroya img{
+  width: 200px;
+  height: 200px;
+  opacity: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+
 
 .home{
     display: flex;
@@ -283,37 +304,81 @@ body {
 .tarjetasproveedores{
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     margin-top: 5%;
+  
+   
 } 
 
+.tarimas {
+  width: 80%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: stretch;
+  flex-direction:row;
+  justify-content: space-around;
+  margin-bottom: 5%;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/purty-wood.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  border-radius: 40px;
+}
 
+.tarimas h3 {
+  font-size: 2.0rem;
+
+}
+
+.tarimas img {
+  width: 190px;
+  height: 100px;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgb(200, 200, 200);
+  transition: transform .4s;
+}
+
+.tarimas img:hover {
+  opacity: 50%;
+  transform: scale(1.2);
+}
 
 .iluminacion {
    
-    width: 500px;
-    height: 1000px;
+    width:80%;
+    height: 500px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    align-content: stretch;
+    flex-direction:row;
+    justify-content: space-around;
     margin-bottom: 5%;
-    
-    
-    
+    padding: 3%;
+    border-radius: 40px ;
+    background-color: #8e8e8e;
+    background-image: url("https://www.transparenttextures.com/patterns/french-stucco.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
-
-.iluminacion h3 {
-    font-size: 2.0rem;
- 
+  
+.titulopro {
+  font-size:xx-large;
+  background-color: #8e8e8e;
 }
 
 .iluminacion img {
-    width: 220px;
-    height: 140px;
+    width: 190px;
+    height: 100px;
     border-radius: 20px;
     box-shadow: 10px 5px 5px rgb(200, 200, 200);
+    transition: transform .4s;
+}
+
+.iluminacion img:hover {
+  opacity: 50%;
+   transform: scale(1.2);
 }
 
 
@@ -326,19 +391,38 @@ body {
   
   .iluminacion {
    
-    height: 1000px;
+    height: 600px;
   }
 
   .iluminacion h3{
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     text-decoration: underline;
   }
 
 
   .iluminacion img {
     width: 100px;
-    height: 100px;
+    height: 60px;
   }
+
+  .tarimas {
+   
+    height: 500px;
+  }
+
+  .tarimas h3{
+    font-size: 1.0rem;
+    text-decoration: underline;
+  }
+
+
+  .tarimas img {
+    width: 100px;
+    height: 60px;
+  }
+
+
+
 }
 
 .nosotros{
