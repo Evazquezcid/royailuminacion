@@ -12,6 +12,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
+    background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
 }
 
 .main-header{
@@ -199,9 +200,9 @@ body {
     justify-content: space-around;
   
     margin-bottom: 1%;
-    background-image: url(/assets/fondohome1.png);
-    background-repeat: no-repeat;
-    background-size:3000px 3000px;
+    background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */    
    
     
 }
@@ -251,7 +252,7 @@ body {
 
 .iconos{
   
- background-color: #8e8e8e;
+
  
 
 }
@@ -267,7 +268,7 @@ body {
 }
 
 .social-icon span {
-  background-color: aliceblue;
+
   text-align: end;
   font-size: small;
 }
@@ -287,13 +288,14 @@ body {
     justify-content: flex-end;
     flex-wrap: wrap;
     align-items: flex-start;
-   
+    
   
   }
 
   .iconos img {
     width: 40px;
     height: 40px;
+    margin-top: 8%;
   }
 }
 
@@ -338,7 +340,7 @@ body {
 .proveedores {
     background-color: antiquewhite;
     margin-top: 10%;
-   
+    background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
     display: block;
     
 }
