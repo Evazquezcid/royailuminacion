@@ -201,11 +201,32 @@ body {
   
     margin-bottom: 1%;
     background-color: #ffffff;
-background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
+    background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */    
    
     
 }
+
+
+
+.home {
+  border-bottom:3px solid #ebd2b9 ;
+}
+
+
+
+.home1 {
+  
+    
+}
+
+.phome{
+  font-size: 1.6rem;
+  
+  padding: 5%;
+}
+
+
 
 @media screen and (max-width: 600px) {
   .home {
@@ -216,44 +237,16 @@ background-image: url("https://www.transparenttextures.com/patterns/redox-02.png
     border-bottom: 1px solid black;
   }
 
-  .home1 h1 {
-    font-size: 1.;
-   
-  }
-  .home1 p {
-    font-size: x-small;
+  .home p {
+    font-size: 1.2rem;
+    
     
   }
 
   }
-
-.home {
-  border-bottom:3px solid #ebd2b9 ;
-}
-
-
-
-.home1 {
-  padding: 0 auto;
-    
-}
-
-.home1 h1  {
-    font-size: 2.8rem;
-    text-align: center;
-}
-
-.home1 p {
-    font-size: 1.6rem;
-    padding: 5%;
-    text-justify: rigth;
-     
-}
 
 .iconos{
   
-
- 
 
 }
 
@@ -261,33 +254,42 @@ background-image: url("https://www.transparenttextures.com/patterns/redox-02.png
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 5%;
+  gap: 30px;
 
 }
 
-.social-icon span {
+.social-icon  li{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  text-align: end;
-  font-size: small;
+.social-icon p{
+
+ text-align: center;
+ font-size: small;
 }
 
 .iconos img {
   width: 60px;
   height: 60px;
-  vertical-align: text-bottom;
+  
 }
 
 @media screen and (max-width: 600px){
   .social-icon{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     padding: 5%;
     align-content: flex-start;
     justify-content: flex-end;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    
+    align-items: flex-start; */
     
   
   }
