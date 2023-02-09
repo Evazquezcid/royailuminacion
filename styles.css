@@ -175,16 +175,6 @@ body {
  
 }
 
-@media screen and (max-width: 600px) {
-  .fotoprincipal {
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-  }
-
- 
-  
-  }
 
 
 
