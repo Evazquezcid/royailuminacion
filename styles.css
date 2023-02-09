@@ -389,6 +389,7 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/purty-wood.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   border-radius: 40px;
+  gap: 10px;
 }
 
 .tarimas h3 {
@@ -399,8 +400,7 @@ body {
 .tarimas img {
   width: 190px;
   height: 100px;
-  border-radius: 20px;
-  box-shadow: 10px 5px 5px rgb(200, 200, 200);
+  object-fit: contain;
   transition: transform .4s;
 }
 
@@ -438,8 +438,10 @@ body {
     width: 190px;
     height: 100px;
     border-radius: 20px;
-    box-shadow: 10px 5px 5px rgb(200, 200, 200);
+   
+    
     transition: transform .4s;
+    object-fit: contain;
 }
 
 .iluminacion img:hover {
@@ -467,6 +469,7 @@ body {
   .iluminacion img {
     width: 100px;
     height: 60px;
+    
   }
 
   .tarimas {
