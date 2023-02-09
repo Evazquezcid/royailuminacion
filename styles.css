@@ -25,7 +25,7 @@ body {
 
 .main-logo{
   color: black;
-  font-size:32px;
+  font-size:22px;
   text-decoration:none;
 }
 
@@ -41,6 +41,12 @@ body {
   background-color: rgba(0,0,0,.7);
   z-index: 100;
 }
+
+.main-nav img {
+  height: 30px;
+  width: 30px;
+}
+
 
 .main-nav.show{
   margin-left: 0;
@@ -129,6 +135,7 @@ body {
 
   .main-logo{
     flex-basis: 30%;
+    
   }
 
   .main-nav{
@@ -168,13 +175,23 @@ body {
  
 }
 
+@media screen and (max-width: 600px) {
+  .fotoprincipal {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+
+ 
+  
+  }
 
 
 
 .logoroya img{
   width: 200px;
   height: 200px;
-  opacity: 50%;
+  opacity: 30%;
   position: absolute;
   top: 0;
   left: 0;
@@ -214,6 +231,7 @@ body {
   .home1 p {
     font-size: 1.1rem;
   }
+
   }
 
 
